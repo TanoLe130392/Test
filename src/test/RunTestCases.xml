@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Le Duy Song Toan">
+    <test name = 'Verify logging into the system successfully'>
+        <classes>
+            <class name = "Tests.SignInTest">
+            </class>
+        </classes>
+    </test>
+    <test name = 'Verify adding new Brand successfully'>
+        <classes>
+            <class name = "Tests.Product_BrandTest">
+            </class>
+        </classes>
+    </test>
+    <test name = 'Verify adding new Product successfully'>
+        <classes>
+            <class name = "Tests.Product_AddProductTest">
+            </class>
+        </classes>
+    </test>
+</suite>
